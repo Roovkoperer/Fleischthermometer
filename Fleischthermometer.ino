@@ -101,7 +101,8 @@ void loop() {
   // Measure Signal Strength (RSSI) of Wi-Fi connection
   long rssi = WiFi.RSSI();
   //wdt_reset();
-/*
+  
+/***
   __  __                          
  |  \/  | ___  ___ ___  ___ _ __  
  | |\/| |/ _ \/ __/ __|/ _ \ '_ \ 
@@ -133,7 +134,7 @@ void loop() {
   }
 
 
-/*
+/***
   _____    _                                
  |_   _|__| | ___  __ _ _ __ __ _ _ __ ___  
    | |/ _ \ |/ _ \/ _` | '__/ _` | '_ ` _ \ 
