@@ -50,7 +50,7 @@ void setup() {
   Serial.begin(115200); 
 
   /*** Automatisch wird der Wlan Zugang geladen, falls dieser nicht verfügbar ist 
-       mach der Wemos selbst einen Hotspot auf wo man das neue Wlan eintragen kann***
+       macht der Wemos selbst einen Hotspot auf wo man das neue Wlan eintragen kann***
   WiFiManager wifiManager;
   wifiManager.setDebugOutput(true);
   wifiManager.autoConnect("BlackPearl");
